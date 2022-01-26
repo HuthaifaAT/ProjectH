@@ -1,0 +1,34 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+huthaifa/node_modules
+huthaifa/.pnp
+huthaifa/.pnp.js
+
+# testing
+huthaifa/coverage
+
+# next.js
+huthaifa/.next/
+huthaifa/out/
+
+# production
+huthaifa/build
+
+# misc
+huthaifa/.DS_Store
+huthaifa/*.pem
+
+# debug
+huthaifa/npm-debug.log*
+huthaifa/yarn-debug.log*
+huthaifa/yarn-error.log*
+
+# local env files
+huthaifa/.env.local
+huthaifa/.env.development.local
+huthaifa/.env.test.local
+huthaifa/.env.production.local
+
+# vercel
+huthaifa/.vercel

@@ -63,11 +63,11 @@ export default function Home() {
 				</Card>
 			</Box>
 			<div>
-				<MessengerCustomerChat
+				{/* <MessengerCustomerChat
 					pageId="109087308400962"
 					appId="520772699413481"
 					htmlRef="<REF_STRING>"
-				/>
+				/> */}
 			</div>
 		</Stack>
 	);

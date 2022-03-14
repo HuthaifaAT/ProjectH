@@ -10,9 +10,10 @@ import {
 	Select,
 	Card,
 	Paper,
+	Fab,
 } from '@mui/material';
 import { useState } from 'react';
-
+import MessengerCustomerChat from 'react-messenger-customer-chat';
 export default function Home() {
 	const [image, setImage] = useState(null);
 	const imgLoader = ({ src, width, quality }) => {
@@ -61,6 +62,13 @@ export default function Home() {
 					<Paper></Paper>
 				</Card>
 			</Box>
+			<div>
+				<MessengerCustomerChat
+					pageId="109087308400962"
+					appId="520772699413481"
+					htmlRef="<REF_STRING>"
+				/>
+			</div>
 		</Stack>
 	);
 }

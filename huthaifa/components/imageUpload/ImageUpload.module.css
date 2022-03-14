@@ -1,0 +1,45 @@
+.rootContainer {
+	width: 200px;
+	display: flex;
+	justify-content: center;
+	align-items: flex-start;
+	margin: 0;
+	padding: 0;
+	background-color: transparent;
+	border-radius: 25px;
+}
+.icon {
+	margin: auto;
+}
+.iconHover {
+	margin: 10px;
+}
+.iconHover:hover {
+	color: red;
+}
+.cardHeader {
+	text-align: center;
+	align-self: center;
+	background-color: white;
+}
+.input {
+	display: none;
+}
+.title {
+	color: blue;
+	font-weight: bold;
+	font-family: Montserrat;
+	align-self: center;
+}
+.button {
+	color: blue;
+	margin: 10px;
+}
+.secondaryButton {
+	color: gray;
+	margin: 10px;
+}
+.typography {
+	margin: 5px;
+	background-color: default;
+}

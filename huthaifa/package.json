@@ -1,22 +1,30 @@
 {
-  "name": "huthaifa",
-  "private": true,
-  "scripts": {
-    "dev": "next dev",
-    "build": "next build",
-    "start": "next start",
-    "lint": "next lint"
-  },
-  "dependencies": {
-    "next": "12.0.8",
-    "react": "17.0.2",
-    "react-dom": "17.0.2"
-  },
-  "devDependencies": {
-    "@types/node": "^17.0.12",
-    "@types/react": "^17.0.38",
-    "eslint": "8.7.0",
-    "eslint-config-next": "12.0.8",
-    "typescript": "^4.5.5"
-  }
+	"name": "huthaifa",
+	"version": "0.0.1",
+	"private": true,
+	"scripts": {
+		"dev": "next dev",
+		"build": "next build",
+		"start": "next start",
+		"lint": "next lint"
+	},
+	"dependencies": {
+		"@emotion/react": "^11.8.1",
+		"@emotion/styled": "^11.8.1",
+		"@heroicons/react": "^1.0.6",
+		"@mui/icons-material": "^5.5.0",
+		"@mui/material": "^5.5.0",
+		"@mui/styles": "^5.5.0",
+		"@reduxjs/toolkit": "^1.8.0",
+		"next": "12.0.8",
+		"react": "17.0.2",
+		"react-dom": "17.0.2"
+	},
+	"devDependencies": {
+		"@types/node": "^17.0.12",
+		"@types/react": "^17.0.38",
+		"eslint": "8.7.0",
+		"eslint-config-next": "12.0.8",
+		"typescript": "^4.5.5"
+	}
 }

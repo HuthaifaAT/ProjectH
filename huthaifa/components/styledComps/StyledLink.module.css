@@ -1,0 +1,47 @@
+.cell {
+	width: 100%;
+	height: 100%;
+	z-index: 2;
+}
+.container {
+	transition: all 0.1s ease-in-out;
+	position: relative;
+	height: 2em;
+	width: 5em;
+}
+.Link {
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%, -50%);
+	z-index: 2;
+}
+
+.StyledLink {
+	will-change: left;
+	will-change: opacity;
+	background-color: white;
+	opacity: 0;
+	position: absolute;
+	--transition-duration: 500ms;
+	--transition-easing: ease-out;
+	width: 55%;
+	height: 100%;
+	top: 50%;
+	left: -0.5%;
+	transform: translate(-50%, -40%) skew(50deg);
+	/* visibility: hidden; */
+	z-index: 1;
+	position: absolute;
+	-moz-transition: all 0.45s ease-in-out;
+	-o-transition: all 0.45s ease-in-out;
+	-webkit-transition: all 0.45s ease-in-out;
+	transition: all 0.45s ease-in-out;
+}
+.container:hover > .StyledLink {
+	opacity: 0.4;
+	left: 50%;
+}
+.StyledLink:hover {
+	opacity: 0;
+}

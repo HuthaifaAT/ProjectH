@@ -11,8 +11,8 @@ module.exports = {
 		FIREBASE_MEASUREMENT_ID: 'G-XRHPYP3W91',
 		PROTFOLIO_IMAGE_URL: '/images/mainImage.png',
 	},
-	webpack: (config) => {
-		config.experiments = { topLevelAwait: true };
-		return config;
-	},
+	// webpack: (config) => {
+	// 	config.experiments = { topLevelAwait: true };
+	// 	return config;
+	// },
 };

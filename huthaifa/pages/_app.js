@@ -6,7 +6,7 @@ function MyApp({ Component, pageProps }) {
 	return (
 		<MainLayout>
 			<Component {...pageProps} />
-			<div id="fb-root"></div>
+			{/* <div id="fb-root"></div>
 
 			<div id="fb-customer-chat" className="fb-customerchat"></div>
 
@@ -32,7 +32,7 @@ function MyApp({ Component, pageProps }) {
         fjs.parentNode.insertBefore(js, fjs);
       }(document, 'script', 'facebook-jssdk'));
 `}{' '}
-			</Script>
+			</Script> */}
 		</MainLayout>
 	);
 }
